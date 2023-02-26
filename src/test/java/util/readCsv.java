@@ -40,7 +40,7 @@ String[] userLine = line.split(delimitter);
 		}
 		
 		catch (IOException e) {
-			System.out.println("File not found");
+			System.out.println("File has been not found");
 		}
 		
 		
