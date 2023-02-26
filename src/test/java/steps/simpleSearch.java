@@ -60,7 +60,7 @@ public class simpleSearch extends testBase{
 	boolean displayResults = searchResult.isDisplayed();*/
 		googleHomePage gp = new googleHomePage(driver);
 	
-	Assert.assertTrue(gp.isSearchRerchResultVisible(), "Search Result is not desplay");
+	Assert.assertTrue(gp.isSearchRerchResultVisible(), "Search gogole Result is not desplay");
 	closeCurrent();
 	closeAll();
 	
